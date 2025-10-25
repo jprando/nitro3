@@ -7,10 +7,10 @@
     "cloudflare:dev": "pnpm dlx wrangler dev",
     "build": "nitro build",
     "preview": "npx srvx --prod .output/",
+    "prepreview":"pnpm build",
     "deploy": "pnpm cloduflare:deploy",
     "cloduflare:deploy": "pnpm dlx wrangler deploy",
     "cloudflare:login": "pnpm dlx wrangler login",
-    "prepreview":"pnpm build",
     "prepare": "nitro prepare"
   },
   "devDependencies": {
