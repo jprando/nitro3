@@ -6,8 +6,17 @@
     "dev": "nitro dev",
     "preview": "npx srvx --prod .output/"
   },
+  "engines": {
+    "node": "22.21.0",
+    "npm": "11.6.2"
+  },
+  "packageManager": "pnpm@10.19.0",
   "devDependencies": {
     "@rollup/plugin-terser": "^0.4.4",
     "nitro": "latest"
+  },
+  "volta": {
+    "node": "22.21.0",
+    "npm": "11.6.2"
   }
 }
