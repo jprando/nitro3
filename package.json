@@ -1,22 +1,31 @@
 {
-  "name": "nitro-app",
+  "name": "prando-nitro-app",
   "private": true,
   "scripts": {
+    "dev": "pnpm nitro:dev",
+    "nitro:dev": "nitro dev",
+    "cloudflare:dev": "pnpm dlx wrangler dev",
     "build": "nitro build",
-    "dev": "nitro dev",
-    "preview": "npx srvx --prod .output/"
+    "preview": "npx srvx --prod .output/",
+    "deploy": "pnpm cloduflare:deploy",
+    "cloduflare:deploy": "pnpm dlx wrangler deploy",
+    "cloudflare:login": "pnpm dlx wrangler login",
+    "prepreview":"pnpm build",
+    "prepare": "nitro prepare"
+  },
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "nitro": "latest",
+    "nitro-cloudflare-dev": "^0.2.2",
+    "wrangler": "^4.45.0"
+  },
+  "volta": {
+    "node": "22.21.0",
+    "npm": "11.6.2"
   },
   "engines": {
     "node": "22.21.0",
     "npm": "11.6.2"
   },
-  "packageManager": "pnpm@10.19.0",
-  "devDependencies": {
-    "@rollup/plugin-terser": "^0.4.4",
-    "nitro": "latest"
-  },
-  "volta": {
-    "node": "22.21.0",
-    "npm": "11.6.2"
-  }
+  "packageManager": "pnpm@10.19.0"
 }
