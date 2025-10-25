@@ -3,7 +3,7 @@
   <img src="https://unjs.io/assets/logos/nitro.svg" alt="Nitro Logo" width="150">
   <br><br>
   <h1>🚀 Bem-vindo ao Nitro Study! 🚀</h1>
-  <p>Um projeto dedicado a aprender e explorar o incrível poder do <a href="https://v3.nitro.build/">Nitro</a>, o motor de servidor universal para aplicações web modernas.</p>
+  <p>Um projeto dedicado a aprender e explorar o incrível poder do <a href="https://v3.nitro.build/">Nitro v3</a>, o motor de servidor universal para aplicações web modernas.</p>
 </div>
 
 ---
