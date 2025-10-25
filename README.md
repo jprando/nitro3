@@ -79,5 +79,5 @@ Para mais informações sobre deploy em outros provedores, consulte a [documenta
 ---
 
 <div align="center">
-  <p>Feito com ✨ typescript e muito café ☕ por <a href="https://github.com/prandow">Prando</a></p>
+  <p>Feito com ✨ typescript e muito café ☕ por <a href="https://github.com/jprando">jprando</a></p>
 </div>
