@@ -25,6 +25,18 @@ Este repositório é um playground para testar e entender as funcionalidades do 
 
 Para executar este projeto localmente, siga os passos abaixo:
 
+### Requisitos
+
+Antes de começar, certifique-se de que você tem os seguintes requisitos instalados e configurados:
+
+-   **Acesso à Internet:** Necessário para clonar o repositório e instalar as dependências.
+-   **Node.js:** É necessário ter o Node.js instalado.
+-   **pnpm:** Este projeto utiliza o `pnpm` como gerenciador de pacotes.
+
+> **Nota:** Recomendo o uso do [Volta](https://volta.sh/) para gerenciar as versões do Node.js e dos gerenciadores de pacotes. Com o Volta, você pode instalar a versão correta do Node.js e do `pnpm` com um único comando.
+
+### Instalação
+
 1.  **Clone o repositório:**
     ```bash
     git clone https://github.com/jprando/nitro3 jprando-nitro3
