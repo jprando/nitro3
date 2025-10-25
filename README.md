@@ -27,8 +27,8 @@ Para executar este projeto localmente, siga os passos abaixo:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone https://github.com/prandow/prando-nitro-app.git
-    cd prando-nitro-app
+    git clone https://github.com/jprando/nitro3 jprando-nitro3
+    cd jprando-nitro3
     ```
 
 2.  **Instale as dependências:**
