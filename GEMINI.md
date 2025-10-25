@@ -1,6 +1,6 @@
-# Aprendendo sobre nitro v3
+# Aprendendo sobre Nitro v3
 
-Este projeto eh para estudo e aprendizado do v3.nitro.build, testar as funcionalidades da [documentacao oficial](https://v3.nitro.build/).
+Este projeto eh para estudo e aprendizado do full-stack framework [Nitro V3](https://v3.nitro.build), testar as funcionalidades da [documentacao oficial](https://v3.nitro.build/docs).
 
 ## Apresentacao
 
@@ -311,7 +311,8 @@ The default database connection is preconfigured with [`SQLite`](https://db0.unj
 
 In order to enable database layer you need to enable experimental feature flag.
 
-> You can change default connection or define more connections to any of the [supported databases](https://db0.unjs.io/connectors/sqlite).
+You can change default connection or define more connections to any of the [supported databases](https://db0.unjs.io/connectors/sqlite).
+
 > You can integrate database instance to any of the [supported ORMs](https://db0.unjs.io/integrations).
 
 ### Configuration
