@@ -8,6 +8,5 @@ export default defineNitroConfig({
   cloudflare: {
     deployConfig: true,
     nodeCompat: true,
-
   }
 });
