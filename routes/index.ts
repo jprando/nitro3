@@ -1,6 +1,6 @@
-import { defineHandler, html } from "nitro/deps/h3"
+import { defineHandler, html } from "nitro/deps/h3";
 
-export default defineHandler((event) => {
+export default defineHandler((_event) => {
   return html`
       <meta charset="utf-8">
       <h1>This is your brand new Nitro project 🚀 </h1>

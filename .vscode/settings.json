@@ -1,0 +1,13 @@
+{
+    "editor.tabSize": 2,
+    "files.trimTrailingWhitespace": true,
+    "explorer.fileNesting.enabled": true,
+    "explorer.sortOrder": "foldersNestsFiles",
+    "html.format.wrapAttributes": "force-aligned",
+    "vue.format.wrapAttributes": "force-expand-multiline",
+    "editor.formatOnPaste": true,
+    "css.format.braceStyle": "expand",
+    "javascript.format.semicolons": "insert",
+    "typescript.format.semicolons": "insert",
+    "git.blame.editorDecoration.enabled": true
+}

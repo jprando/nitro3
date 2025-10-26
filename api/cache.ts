@@ -1,0 +1,15 @@
+import { defineCachedHandler, defineRouteMeta } from "nitro/runtime";
+
+export default defineCachedHandler(
+  async (_event) => new Date(),
+  { maxAge: 15 }
+);
+
+
+defineRouteMeta({
+  openAPI:{
+    tags: ["cache"],
+    description: "Cache configurado para 15 segundos, retorna a data e hora do servidor",
+    summary: "cache de 15 segundos"
+  }
+});
