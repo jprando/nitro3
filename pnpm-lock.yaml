@@ -14,6 +14,9 @@ importers:
       '@rollup/plugin-terser':
         specifier: ^0.4.4
         version: 0.4.4(rollup@4.52.5)
+      husky:
+        specifier: ^9.1.7
+        version: 9.1.7
       nitro:
         specifier: latest
         version: 3.0.1-alpha.0
@@ -832,6 +835,11 @@ packages:
       crossws:
         optional: true
 
+  husky@9.1.7:
+    resolution: {integrity: sha512-5gs5ytaNjBrh5Ow3zrvdUUY+0VxIuWVL4i9irt6friV+BqdCfmV11CQTWMiBYWHbXhco+J1kHfTOUkePhCDvMA==}
+    engines: {node: '>=18'}
+    hasBin: true
+
   is-arrayish@0.3.4:
     resolution: {integrity: sha512-m6UrgzFVUYawGBh1dUsWR5M2Clqic9RVXC/9f8ceNlv2IcO9j9J/z8UoCLPqtsPBFNzEpfR3xftohbfqDx8EQA==}
 
@@ -1630,6 +1638,8 @@ snapshots:
       srvx: 0.8.16
     optionalDependencies:
       crossws: 0.4.1(srvx@0.8.16)
+
+  husky@9.1.7: {}
 
   is-arrayish@0.3.4: {}
 
