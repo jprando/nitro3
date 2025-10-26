@@ -28,12 +28,12 @@ export default defineNitroConfig({
     openAPI: true,
   },
   noPublicDir: true,
-  routeRules: {
-    "/api/**": {
-      cors: true,
-      headers: {
-        "access-control-allow-methods": "GET",
-      },
-    },
-  },
+  // routeRules: {
+  //   "/api/**": {
+  //     cors: true,
+  //     headers: {
+  //       "access-control-allow-methods": "GET",
+  //     },
+  //   },
+  // },
 });
