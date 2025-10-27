@@ -17,7 +17,8 @@ export default defineNitroConfig({
   ],
   openAPI: {
     route: "/_openapi.json",
-    production: "runtime",
+    // production: "runtime",
+    production: "prerender",
     meta: {
       title: "Nitro v3",
       description:
