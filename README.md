@@ -12,7 +12,7 @@
 
 Este repositório é um playground para testar e entender as funcionalidades do Nitro. Aqui, você encontrará exemplos práticos e anotações baseadas na [documentação oficial](https://v3.nitro.build/), cobrindo desde o básico até tópicos mais avançados.
 
-[🗺️ Explore a API deste projeto](https://registry.scalar.com/@prando-garage/apis/nitro-v3/latest)
+[🗺️ Explore a API deste projeto](https://nitro3.jeudi.workers.dev/_scalar/)
 
 ## ✨ Funcionalidades Exploradas
 
