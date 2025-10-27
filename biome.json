@@ -17,6 +17,7 @@
     "enabled": true,
     "expand": "always",
     "includes": [
+      "api/**/*.ts",
       "routes/**/*.ts",
       "*.ts",
       "*.yaml",
@@ -37,6 +38,7 @@
   "linter": {
     "enabled": true,
     "includes": [
+      "api/**/*.ts",
       "routes/**/*.ts",
       "*.ts",
       "*.yaml",
