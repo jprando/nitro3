@@ -17,10 +17,11 @@ export default defineNitroConfig({
   ],
   openAPI: {
     route: "/_openapi.json",
+    production: "prerender",
     meta: {
       title: "Nitro v3",
       description:
-        "Aprendendo e testando as funcionalidades e novidades do Nitro v3",
+        "Aprendendo e testando as funcionalidades e novidades do Nitro v3\nhttps://github.com/jprando/nitro3",
       version: "1.0.0",
     },
   },
